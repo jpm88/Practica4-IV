@@ -59,6 +59,14 @@ Como nuestra aplicación está hecha en PHP elegimos la opción de PHP.
 
 Después rellenamos los datos de nuestra aplicación.
 
+Para poder obtener la public key y poder manipular los archivos en nuestro pc necesitamos los siguientes comandos:
+
+    sudo apt-get install rubygems
+    sudo gem install rhc
+    rhc setup
+
+Al ejecutar el comando "rhc setup" nos pedirá nuestros credenciales de OpenShift (usuario y contraseña), con esto ya está configurado el cliente rhc.
+
 Una vez creado el proyecto pasamos a copiarlo a nuestro pc, usando la dirección que OpenShift nos ofrece para clonar directorios a nuestro pc a través de SSH:
 
     git clone ssh://52643eeb5973ca7db20000c7@practica1-jpm88.rhcloud.com/~/git/practica1.git/
