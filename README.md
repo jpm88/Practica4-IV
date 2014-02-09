@@ -25,19 +25,19 @@ Para la realización de esta práctica vamos a montar una máquina virtual sobre
 
 Vamos a crear una máquina con VirtualBox, empezamos eligiendo el SO que queremos instalar:
 
-![img1]()
+![img1](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img1.jpg)
 
 Le asignamos la memoria RAM que necesitemos:
 
-![img2]()
+![img2](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img2.jpg)
 
 Y creamos nuestro disco duro virtual:
 
-![img3]()
+![img3](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img3.jpg)
 
 Terminamos los pasos y se iniciará la instalación de Ubuntu, una vez terminada ya lo tendremos listo para trabajar:
 
-![img4]()
+![img4](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img4.jpg)
 
 
 #### Explicación del funcionamiento de la aplicación
@@ -58,13 +58,13 @@ La aplicación en si está un poco "verde" y desordenada.
 
 Nos creamos una cuenta en https://www.openshift.com/ y le damos a "Add application", nos saldrá la siguiente pantalla:
 
-![img5]()
+![img5](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img5.jpg)
 
 Como nuestra aplicación está hecha en Python 3.3 elegimos esa opción.
 
 Ahora creamos la aplicación con los siguientes datos:
 
-![img6]()
+![img6](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img6.jpg)
 
 
 
