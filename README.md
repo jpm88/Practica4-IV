@@ -19,7 +19,7 @@ Lo que se pretende con este ciclo es que el tiempo que pasa desde la incorporaci
 
 #### Introducción
 
-Para la realización de esta práctica vamos a montar una máquina virtual sobre nuestro sistema, usando VirtualBox, crearemos una nueva imagen de Ubuntu, en ella trabajaremos con Python para utilizar una aplicación realizada en la asignatura de DAI y se colgará en OpenShift para su visualización.
+Para la realización de esta práctica vamos a montar una máquina virtual sobre nuestro sistema, usando VirtualBox, crearemos una nueva imagen de Ubuntu, en ella trabajaremos con PHP para utilizar una aplicación realizada en la asignatura de TW y se colgará en OpenShift para su visualización.
 
 #### Creación de la máquina virtual
 
@@ -42,17 +42,7 @@ Terminamos los pasos y se iniciará la instalación de Ubuntu, una vez terminada
 
 #### Explicación del funcionamiento de la aplicación
 
-La aplicación que se va a utilizar es un "popurrí" de cosas que se han ido probando a lo largo de la asignatura de DAI:
-
-- Uso de web.py.
-- Plantillas mako
-- Control de sesiones con MongoDB (pymongo)
-- Formulario de registro con sus respectivas validaciones.
-- Uso de feedparser
-- Tweepy (Twitter en Python)
-- Mapas de Google
-
-La aplicación en si está un poco "verde" y desordenada.
+La aplicación que se va a usar es una
 
 #### Utilizando OpenShift
 
@@ -60,11 +50,36 @@ Nos creamos una cuenta en https://www.openshift.com/ y le damos a "Add applicati
 
 ![img5](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img5.jpg)
 
-Como nuestra aplicación está hecha en Python 3.3 elegimos esa opción.
+Como nuestra aplicación está hecha en PHP elegimos esa opción.
 
 Ahora creamos la aplicación con los siguientes datos:
 
 ![img6](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img6.jpg)
+
+Una vez creado el proyecto pasamos a copiarlo a nuestro pc, usando la dirección que OpenShift nos ofrece para clonar directorios a nuestro pc a través de SSH:
+
+    git clone ssh://52643eeb5973ca7db20000c7@practica1-jpm88.rhcloud.com/~/git/practica1.git/
+
+Una vez tengamos el directorio en nuestro pc, añadimos los archivos de nuestro periódico digital en la carpeta php, ahora toca subirla, con los siguientes comando:
+
+    git add -A
+    git commit -a -m "Practica 4 de IV"
+    git push origin master
+    
+Y ya tendríamos la práctica subida en la siguiente dirección:
+
+http://practica1-jpm88.rhcloud.com/
+
+No consigo que se me abra correctamente desde el enlace:
+
+![img7](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img7.jpg)
+
+Después toqué algo y volví a hacer push y ya no me funcionaba desde el enlace, y no he conseguido arreglarlo.
+
+
+
+
+
 
 
 
