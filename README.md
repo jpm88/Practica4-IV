@@ -42,7 +42,8 @@ Terminamos los pasos y se iniciará la instalación de Ubuntu, una vez terminada
 
 #### Explicación del funcionamiento de la aplicación
 
-La aplicación que se va a usar es una
+La aplicación que se va a usar es una aplicación PHP basada en un periódico digital, realizada en la asignatura de Tecnologías Web y la cuál ya se ha utilizado para anteriores prácticas esta asignatura.
+
 
 #### Utilizando OpenShift
 
@@ -64,7 +65,7 @@ Una vez tengamos el directorio en nuestro pc, añadimos los archivos de nuestro 
     git commit -a -m "Practica 4 de IV"
     git push origin master
     
-Y ya tendríamos la práctica subida en la siguiente dirección:
+Y ya tendríamos la práctica subida y funcionando en la siguiente dirección:
 
 http://practica1-jpm88.rhcloud.com/
 
