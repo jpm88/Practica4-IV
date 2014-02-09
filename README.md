@@ -50,11 +50,9 @@ Nos creamos una cuenta en https://www.openshift.com/ y le damos a "Add applicati
 
 ![img5](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img5.jpg)
 
-Como nuestra aplicación está hecha en PHP elegimos esa opción.
+Como nuestra aplicación está hecha en PHP elegimos la opción de PHP.
 
-Ahora creamos la aplicación con los siguientes datos:
-
-![img6](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img6.jpg)
+Después rellenamos los datos de nuestra aplicación.
 
 Una vez creado el proyecto pasamos a copiarlo a nuestro pc, usando la dirección que OpenShift nos ofrece para clonar directorios a nuestro pc a través de SSH:
 
@@ -69,12 +67,6 @@ Una vez tengamos el directorio en nuestro pc, añadimos los archivos de nuestro 
 Y ya tendríamos la práctica subida en la siguiente dirección:
 
 http://practica1-jpm88.rhcloud.com/
-
-No consigo que se me abra correctamente desde el enlace:
-
-![img7](https://raw2.github.com/jpm88/Practica4-IV/master/imagenes/img7.jpg)
-
-Después toqué algo y volví a hacer push y ya no me funcionaba desde el enlace, y no he conseguido arreglarlo.
 
 
 
