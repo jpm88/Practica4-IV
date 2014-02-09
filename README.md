@@ -44,6 +44,10 @@ Terminamos los pasos y se iniciará la instalación de Ubuntu, una vez terminada
 
 La aplicación que se va a usar es una aplicación PHP basada en un periódico digital, realizada en la asignatura de Tecnologías Web y la cuál ya se ha utilizado para anteriores prácticas esta asignatura.
 
+Si se desea visualizar la documentación referente a la creación de esta aplicación se puede descargar en el siguiente enlace:
+
+https://github.com/jpm88/Practica4-IV/blob/master/periodicoII/documentacion.pdf?raw=true
+
 
 #### Utilizando OpenShift
 
